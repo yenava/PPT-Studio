@@ -1,0 +1,63 @@
+{
+  "id": "20260628-deidentified-orange-financial-style-corporate-insur-3be19e",
+  "name": "Deidentified Orange Financial Style Corporate Insurance Report",
+  "description": "脱敏的金融保险企业内部汇报PPT风格：橙红主色、高密度咨询页、流程箭头、左侧阶段条、右侧结论栏、图表占位系统。",
+  "tags": [
+    "financial-insurance",
+    "orange-red",
+    "dense-report",
+    "consulting-style",
+    "anonymized",
+    "process-arrow",
+    "chart-heavy"
+  ],
+  "created_at": "2026-06-28T13:14:41+08:00",
+  "updated_at": "2026-06-28T13:14:41+08:00",
+  "page_count": 6,
+  "source_profile": {
+    "topic": "脱敏企业经营分析与保险服务方案PPT视觉系统",
+    "audience": "企业内部汇报、经营分析、策略评审",
+    "industry": "financial-insurance",
+    "purpose": "style extraction and reusable template generation",
+    "tone": "corporate, analytical, dense, pragmatic, consulting-style",
+    "page_count": 6,
+    "keywords": [
+      "orange-red corporate deck",
+      "insurance consulting style",
+      "dense information dashboard",
+      "process arrow ribbon",
+      "thin grid lines",
+      "left vertical stage bar",
+      "right conclusion panel",
+      "de-identified visual system"
+    ],
+    "visual_constraints": [
+      "no real company logo",
+      "no real business content",
+      "no specific numbers or percentages",
+      "use anonymized placeholder text blocks only",
+      "keep only reusable visual system"
+    ],
+    "reference_images": [
+      "/Users/yanhui/Downloads/4bb4ec8f445e801e16075df13ee5092f.JPG",
+      "/Users/yanhui/Downloads/91a40a4ba5e09238cfd27a496ad4557d.JPG",
+      "/Users/yanhui/Downloads/6a1972e4c7a67ebfe0398f96e543ade2.JPG",
+      "/Users/yanhui/Downloads/48172f948cc5872673da623a325cef53.JPG",
+      "/Users/yanhui/Downloads/a0c2b2b8861d40ccb78e88ce1fb272b9.JPG",
+      "/Users/yanhui/Downloads/19774a7a9fb48c51fd8df5e9587d7c34.JPG",
+      "/Users/yanhui/Downloads/9c50bb41f842e5e5f0abf6400668c702.JPG"
+    ]
+  },
+  "visual_system": {
+    "layout": "Preserve visual language only: typography hierarchy, color system, module structure, process arrows, chart placement, and dense consulting-report layout.",
+    "typography": "Preserve visual language only: typography hierarchy, color system, module structure, process arrows, chart placement, and dense consulting-report layout.",
+    "color": "Preserve visual language only: typography hierarchy, color system, module structure, process arrows, chart placement, and dense consulting-report layout.",
+    "background": "Generate one clean 16:9 presentation style collage image containing six miniature slide thumbnails arranged in a 3-column by 2-row grid on a neutral background. The result is a reusable PPT visual system sample inspired by the provided reference photos from a Chinese financial/insurance corporate de",
+    "charts": "Use only generic placeholder headings such as \"模块标题\", \"关键发现\", \"方案路径\", \"价值产出\", or abstract gray text strokes. Charts must use unlabeled axes and placeholder bars/lines only.",
+    "modules": "Use only generic placeholder headings such as \"模块标题\", \"关键发现\", \"方案路径\", \"价值产出\", or abstract gray text strokes. Charts must use unlabeled axes and placeholder bars/lines only.",
+    "header_footer": "Header system: top-left section number badge or orange circle, large Chinese-style title, thin orange-red horizontal rule beneath."
+  },
+  "prompt_path": "prompt.md",
+  "collage_image": "collage.png",
+  "assets": []
+}

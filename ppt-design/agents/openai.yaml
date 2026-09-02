@@ -1,0 +1,4 @@
+interface:
+  display_name: "PPT Design"
+  short_description: "Image-based PPT design workflow"
+  default_prompt: "Use $ppt-design to turn my source material into a visually designed image-based PPTX."

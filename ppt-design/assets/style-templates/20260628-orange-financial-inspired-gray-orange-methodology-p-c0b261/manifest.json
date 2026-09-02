@@ -1,0 +1,76 @@
+{
+  "id": "20260628-orange-financial-inspired-gray-orange-methodology-p-c0b261",
+  "name": "Orange Financial Inspired Gray Orange Methodology Preview",
+  "description": "橙红金融灰橙方法论PPT九宫格预览：灰/蓝灰为主色，橙色仅做高亮，包含流程模型、RFM、旅程图、战略地图、矩阵、RACI、七步法和路线图。",
+  "tags": [
+    "financial-insurance",
+    "gray-orange",
+    "orange-financial-inspired",
+    "methodology",
+    "3x3-preview",
+    "nine-thumbnails",
+    "process-model",
+    "matrix",
+    "customer-journey",
+    "RACI",
+    "Gantt",
+    "anonymized"
+  ],
+  "created_at": "2026-06-28T14:44:37+08:00",
+  "updated_at": "2026-06-28T14:44:37+08:00",
+  "page_count": 9,
+  "source_profile": {
+    "topic": "橙红金融灰橙方法论结构图PPT九宫格风格预览",
+    "audience": "企业内部汇报、经营分析、策略评审、咨询方案展示",
+    "industry": "financial-insurance",
+    "purpose": "new reusable gray-orange methodology PPT preview template",
+    "tone": "corporate, analytical, restrained, methodology-heavy, consulting-style",
+    "page_count": 9,
+    "keywords": [
+      "gray orange",
+      "Orange Financial inspired",
+      "methodology diagrams",
+      "financial insurance consulting",
+      "3x3 preview board",
+      "nine 16:9 thumbnails",
+      "process model",
+      "matrix model",
+      "customer journey map",
+      "strategy map",
+      "RACI matrix",
+      "Gantt chart",
+      "orange highlights only"
+    ],
+    "visual_constraints": [
+      "keep existing white-orange template unchanged",
+      "create a separate gray-orange template",
+      "gray and blue-gray are the main colors",
+      "orange is used sparingly only for highlights",
+      "use more methodology structure diagrams",
+      "no real logos",
+      "no copied text",
+      "no real data",
+      "all thumbnails are 16:9"
+    ],
+    "reference_images": [
+      "/var/folders/69/d_wdfswx1js6cgt9m_16523c0000gn/T/codex-clipboard-ce1985f5-e985-449f-8e38-2c4d0471e840.png",
+      "/Users/yanhui/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_svijbahw5xnk22_fe87/temp/RWTemp/2026-06/8c446b85569abfd3af56e9c72ec3b2ea/c88b5b780ccea143230bec34338d4bf8.jpg",
+      "/Users/yanhui/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_svijbahw5xnk22_fe87/temp/RWTemp/2026-06/8c446b85569abfd3af56e9c72ec3b2ea/558ccc7de01afbcea68c772eb4ac7e12.jpg",
+      "/Users/yanhui/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_svijbahw5xnk22_fe87/temp/RWTemp/2026-06/8c446b85569abfd3af56e9c72ec3b2ea/f6d38dd49307ee9f0136be3fb87516a4.jpg",
+      "/Users/yanhui/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_svijbahw5xnk22_fe87/temp/RWTemp/2026-06/8c446b85569abfd3af56e9c72ec3b2ea/8849ae12c33335a3df98c67f2e1e33bf.jpg",
+      "/Users/yanhui/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_svijbahw5xnk22_fe87/temp/RWTemp/2026-06/8c446b85569abfd3af56e9c72ec3b2ea/df900ee9d85c08530bbe709b074d539c.jpg"
+    ]
+  },
+  "visual_system": {
+    "typography": "Typography and components:",
+    "color": "Color direction:",
+    "background": "White or very light gray full-board background, narrow gutters, thin light-gray borders.",
+    "charts": "Use reference images 2-6 only for methodology structure inspiration: process model, innovation funnel, RFM cube, customer journey map, strategy map, MABA matrix, RACI matrix, McKinsey 7-step, Ansoff matrix, Gantt chart, behavior model.",
+    "icons": "Use rounded pill title bars, section number capsules, thin divider lines, light-gray cards, small icons, subtle shadows.",
+    "modules": "Use rounded pill title bars, section number capsules, thin divider lines, light-gray cards, small icons, subtle shadows.",
+    "header_footer": "07 Responsibility matrix model: RACI-like table with rows and columns, slate header bands, sparse orange check marks."
+  },
+  "prompt_path": "prompt.md",
+  "collage_image": "collage.png",
+  "assets": []
+}

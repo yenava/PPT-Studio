@@ -1,0 +1,4 @@
+interface:
+  display_name: "Image to Editable Text PPT"
+  short_description: "Turn slide images into PPTs with editable text"
+  default_prompt: "Use $image-to-editable-text-ppt to convert these visual slides into a PPT with editable text."

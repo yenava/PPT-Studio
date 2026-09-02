@@ -1,0 +1,67 @@
+{
+  "id": "20260628-orange-financial-inspired-3x3-orange-financial-serv-32dbf0",
+  "name": "Orange Financial Inspired 3x3 Orange Financial Service Preview",
+  "description": "3x3九宫格PPT风格预览：首图橙色国风金融服务封面，后续8页为脱敏金融保险服务增长咨询报告页，所有缩略图保持16:9。",
+  "tags": [
+    "financial-insurance",
+    "orange-red",
+    "guofeng-cover",
+    "3x3-preview",
+    "nine-thumbnails",
+    "consulting-style",
+    "anonymized",
+    "orange-financial-inspired"
+  ],
+  "created_at": "2026-06-28T13:59:31+08:00",
+  "updated_at": "2026-06-28T13:59:31+08:00",
+  "page_count": 9,
+  "source_profile": {
+    "topic": "脱敏企业经营分析与保险服务方案PPT视觉系统",
+    "audience": "企业内部汇报、经营分析、策略评审",
+    "industry": "financial-insurance",
+    "purpose": "style extraction and reusable template generation",
+    "tone": "corporate, analytical, dense, pragmatic, consulting-style",
+    "page_count": 9,
+    "keywords": [
+      "orange-red corporate deck",
+      "insurance consulting style",
+      "dense information dashboard",
+      "process arrow ribbon",
+      "thin grid lines",
+      "left vertical stage bar",
+      "right conclusion panel",
+      "de-identified visual system",
+      "3x3 preview board",
+      "nine 16:9 thumbnails",
+      "orange guofeng cover"
+    ],
+    "visual_constraints": [
+      "no real company logo",
+      "no real business content",
+      "no specific numbers or percentages",
+      "use anonymized placeholder text blocks only",
+      "keep only reusable visual system",
+      "first thumbnail is a cover slide",
+      "include generic but concrete anonymized topics"
+    ],
+    "reference_images": [
+      "/Users/yanhui/Downloads/4bb4ec8f445e801e16075df13ee5092f.JPG",
+      "/Users/yanhui/Downloads/91a40a4ba5e09238cfd27a496ad4557d.JPG",
+      "/Users/yanhui/Downloads/6a1972e4c7a67ebfe0398f96e543ade2.JPG",
+      "/Users/yanhui/Downloads/48172f948cc5872673da623a325cef53.JPG",
+      "/Users/yanhui/Downloads/a0c2b2b8861d40ccb78e88ce1fb272b9.JPG",
+      "/Users/yanhui/Downloads/19774a7a9fb48c51fd8df5e9587d7c34.JPG",
+      "/Users/yanhui/Downloads/9c50bb41f842e5e5f0abf6400668c702.JPG"
+    ]
+  },
+  "visual_system": {
+    "layout": "05 Scenario strategy: title “场景策略：高频触点激活需求”, matrix layout with category cards and orange highlight tags.",
+    "typography": "Typography: bold Chinese headings; compact body labels; section number badges; white text on orange-red ribbons; small annotations as gray strokes.",
+    "charts": "Do not render chart axis numbers, table values, dates, amounts, percentage figures, or exact metric values. The only numeric text allowed is tiny slide page numbers 01-09. For metrics use symbolic placeholders such as N+, X%, A-B, or short gray strokes.",
+    "icons": "Chinese corporate consulting/report style: crisp grid, thin lines, high information density, compact modules, process arrows, charts, icon rows, conclusion bars.",
+    "modules": "Chinese corporate consulting/report style: crisp grid, thin lines, high information density, compact modules, process arrows, charts, icon rows, conclusion bars."
+  },
+  "prompt_path": "prompt.md",
+  "collage_image": "collage.png",
+  "assets": []
+}

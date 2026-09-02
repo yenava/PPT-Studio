@@ -1,0 +1,84 @@
+{
+  "status": "complete",
+  "history": [
+    {
+      "from": "created",
+      "to": "inputs_prepared",
+      "at": "2026-06-30T06:55:18Z",
+      "note": "prepared inputs and page jobs"
+    },
+    {
+      "from": "inputs_prepared",
+      "to": "deck_built",
+      "at": "2026-06-30T07:34:53Z",
+      "note": "final pptx built"
+    },
+    {
+      "from": "deck_built",
+      "to": "deck_validated",
+      "at": "2026-06-30T07:34:53Z",
+      "note": "final pptx validation passed"
+    },
+    {
+      "from": "deck_validated",
+      "to": "complete",
+      "at": "2026-06-30T07:34:53Z",
+      "note": "final deck complete"
+    },
+    {
+      "from": "complete",
+      "to": "deck_built",
+      "at": "2026-07-01T07:50:48Z",
+      "note": "final pptx built"
+    },
+    {
+      "from": "deck_built",
+      "to": "deck_validated",
+      "at": "2026-07-01T07:51:26Z",
+      "note": "final pptx validation passed"
+    },
+    {
+      "from": "deck_validated",
+      "to": "complete",
+      "at": "2026-07-01T07:51:26Z",
+      "note": "final deck complete"
+    },
+    {
+      "from": "complete",
+      "to": "deck_built",
+      "at": "2026-07-01T08:33:00Z",
+      "note": "final pptx built"
+    },
+    {
+      "from": "deck_built",
+      "to": "deck_validated",
+      "at": "2026-07-01T08:33:00Z",
+      "note": "final pptx validation passed"
+    },
+    {
+      "from": "deck_validated",
+      "to": "complete",
+      "at": "2026-07-01T08:33:00Z",
+      "note": "final deck complete"
+    },
+    {
+      "from": "complete",
+      "to": "deck_built",
+      "at": "2026-07-01T08:45:23Z",
+      "note": "final pptx built"
+    },
+    {
+      "from": "deck_built",
+      "to": "deck_validated",
+      "at": "2026-07-01T08:45:23Z",
+      "note": "final pptx validation passed"
+    },
+    {
+      "from": "deck_validated",
+      "to": "complete",
+      "at": "2026-07-01T08:45:23Z",
+      "note": "final deck complete"
+    }
+  ],
+  "updated_at": "2026-07-01T08:45:23Z"
+}

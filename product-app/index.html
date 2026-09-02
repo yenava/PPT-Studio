@@ -1,0 +1,329 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>PPT Studio</title>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%230F172A'/%3E%3Cpath d='M18 18h28v20H18zM18 42h16' fill='none' stroke='%23F8FAFC' stroke-width='5' stroke-linecap='round' stroke-linejoin='round'/%3E%3Ccircle cx='45' cy='45' r='6' fill='%23F97316'/%3E%3C/svg%3E" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <svg class="icon-sprite" aria-hidden="true">
+      <symbol id="icon-projects" viewBox="0 0 24 24">
+        <path d="M4 5h16v5H4zM4 14h7v5H4zM15 14h5v5h-5z" />
+      </symbol>
+      <symbol id="icon-style" viewBox="0 0 24 24">
+        <path d="M12 4a8 8 0 0 0 0 16h1.5a2 2 0 0 0 1.6-3.2 1.4 1.4 0 0 1 1.1-2.2H18a4 4 0 0 0 3.8-5.4A10.5 10.5 0 0 0 12 4z" />
+        <path d="M7.5 11h.01M10 8h.01M14 8h.01" />
+      </symbol>
+      <symbol id="icon-key" viewBox="0 0 24 24">
+        <circle cx="8" cy="15" r="4" />
+        <path d="m11 12 8-8M16 5l3 3M14 7l3 3" />
+      </symbol>
+      <symbol id="icon-plus" viewBox="0 0 24 24">
+        <path d="M12 5v14M5 12h14" />
+      </symbol>
+      <symbol id="icon-back" viewBox="0 0 24 24">
+        <path d="M15 6 9 12l6 6" />
+      </symbol>
+      <symbol id="icon-reset" viewBox="0 0 24 24">
+        <path d="M5 12a7 7 0 1 0 2-4.9L5 9" />
+        <path d="M5 5v4h4" />
+      </symbol>
+      <symbol id="icon-play" viewBox="0 0 24 24">
+        <path d="M8 5v14l11-7z" />
+      </symbol>
+      <symbol id="icon-upload" viewBox="0 0 24 24">
+        <path d="M12 16V5" />
+        <path d="m8 9 4-4 4 4" />
+        <path d="M5 17v2h14v-2" />
+      </symbol>
+      <symbol id="icon-search" viewBox="0 0 24 24">
+        <path d="m20 20-4.5-4.5" />
+        <circle cx="11" cy="11" r="6" />
+      </symbol>
+      <symbol id="icon-check" viewBox="0 0 24 24">
+        <path d="m5 13 4 4L19 7" />
+      </symbol>
+      <symbol id="icon-expand" viewBox="0 0 24 24">
+        <path d="M8 3H3v5M16 3h5v5M21 16v5h-5M3 16v5h5" />
+        <path d="M3 3l6 6M21 3l-6 6M21 21l-6-6M3 21l6-6" />
+      </symbol>
+      <symbol id="icon-close" viewBox="0 0 24 24">
+        <path d="M18 6 6 18M6 6l12 12" />
+      </symbol>
+      <symbol id="icon-copy" viewBox="0 0 24 24">
+        <rect x="8" y="8" width="11" height="11" rx="2" />
+        <path d="M16 8V6a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2" />
+      </symbol>
+      <symbol id="icon-pointer" viewBox="0 0 24 24">
+        <path d="m5 3 14 9-7 2-3 7z" />
+      </symbol>
+      <symbol id="icon-pen" viewBox="0 0 24 24">
+        <path d="m4 20 4.5-1 10-10a2.1 2.1 0 0 0-3-3l-10 10zM13.5 7.5l3 3" />
+      </symbol>
+      <symbol id="icon-rectangle" viewBox="0 0 24 24">
+        <rect x="4" y="5" width="16" height="14" rx="1" />
+      </symbol>
+      <symbol id="icon-circle" viewBox="0 0 24 24">
+        <circle cx="12" cy="12" r="8" />
+      </symbol>
+      <symbol id="icon-arrow" viewBox="0 0 24 24">
+        <path d="M5 19 19 5M11 5h8v8" />
+      </symbol>
+      <symbol id="icon-text" viewBox="0 0 24 24">
+        <path d="M5 5h14M12 5v14M8 19h8" />
+      </symbol>
+      <symbol id="icon-undo" viewBox="0 0 24 24">
+        <path d="m9 7-5 5 5 5M5 12h8a6 6 0 0 1 6 6" />
+      </symbol>
+      <symbol id="icon-redo" viewBox="0 0 24 24">
+        <path d="m15 7 5 5-5 5M19 12h-8a6 6 0 0 0-6 6" />
+      </symbol>
+      <symbol id="icon-trash" viewBox="0 0 24 24">
+        <path d="M4 7h16M9 7V4h6v3M7 7l1 13h8l1-13M10 11v5M14 11v5" />
+      </symbol>
+    </svg>
+
+    <div class="app-shell">
+      <aside class="nav-rail" aria-label="主导航">
+        <div class="brand-lockup">
+          <div class="brand-mark" aria-hidden="true">PS</div>
+          <div>
+            <p class="eyebrow">PPT Studio</p>
+            <h1>AI 图片版 PPT</h1>
+          </div>
+        </div>
+
+        <nav class="main-nav" aria-label="产品模块">
+          <button class="nav-item is-active" data-view="workspace" type="button" aria-label="项目" title="项目">
+            <svg class="icon"><use href="#icon-projects"></use></svg>
+            <span>项目</span>
+          </button>
+          <button class="nav-item" data-view="styles" type="button" aria-label="风格库" title="风格库">
+            <svg class="icon"><use href="#icon-style"></use></svg>
+            <span>风格库</span>
+          </button>
+          <button class="nav-item" data-view="settings" type="button" aria-label="API KEY 配置" title="API KEY 配置">
+            <svg class="icon"><use href="#icon-key"></use></svg>
+            <span>API KEY 配置</span>
+          </button>
+        </nav>
+      </aside>
+
+      <main class="main-surface" id="main-content">
+        <section class="view is-active" id="workspace-view" aria-labelledby="projects-title">
+          <div class="screen is-active" id="project-list-screen">
+            <header class="page-header">
+              <div>
+                <p class="eyebrow">Projects</p>
+                <h2 id="projects-title">项目</h2>
+                <p class="meta-line">先选择项目，再进入具体生成流程。</p>
+              </div>
+              <div class="header-actions">
+                <button class="button button-secondary" id="seed-demo-button" type="button">
+                  <svg class="icon"><use href="#icon-reset"></use></svg>
+                  <span>样例</span>
+                </button>
+                <button class="button button-primary" id="new-project-button" type="button">
+                  <svg class="icon"><use href="#icon-plus"></use></svg>
+                  <span>新建项目</span>
+                </button>
+              </div>
+            </header>
+
+            <div class="project-summary" id="project-summary"></div>
+            <div class="project-gallery" id="project-gallery"></div>
+          </div>
+
+          <div class="screen" id="project-detail-screen">
+            <header class="detail-header">
+              <button class="button button-secondary" id="back-projects-button" type="button">
+                <svg class="icon"><use href="#icon-back"></use></svg>
+                <span>项目</span>
+              </button>
+              <div class="detail-title">
+                <input id="project-title-input" type="text" aria-label="项目标题" />
+                <p id="project-meta" class="meta-line"></p>
+              </div>
+              <span class="status-pill" id="project-status">资料理解</span>
+            </header>
+
+            <div class="detail-layout">
+              <aside class="step-rail" aria-label="项目流程">
+                <div class="step-nav" id="step-nav"></div>
+              </aside>
+
+              <section class="step-workspace" aria-live="polite">
+                <div class="step-heading">
+                  <p class="eyebrow" id="step-kicker">Step</p>
+                  <h2 id="step-title">上传材料</h2>
+                </div>
+                <div id="step-content" class="step-content"></div>
+              </section>
+
+              <aside class="context-panel" aria-label="当前操作">
+                <section class="action-dock">
+                  <p class="eyebrow">Next Action</p>
+                  <button class="button button-cta" id="primary-action-button" type="button">
+                    <svg class="icon"><use href="#icon-play"></use></svg>
+                    <span>生成大纲</span>
+                  </button>
+                  <p class="action-note" id="action-note"></p>
+                </section>
+
+                <section class="side-block">
+                  <div class="block-heading">
+                    <h3>当前状态</h3>
+                    <span>jobs</span>
+                  </div>
+                  <div id="job-stack" class="job-stack"></div>
+                </section>
+              </aside>
+            </div>
+          </div>
+        </section>
+
+        <section class="view" id="styles-view" aria-labelledby="styles-title">
+          <header class="page-header">
+            <div>
+              <p class="eyebrow">Style Library</p>
+              <h2 id="styles-title">视觉风格库</h2>
+              <p class="meta-line">管理可复用视觉系统，项目流程中按需调用。</p>
+            </div>
+            <label class="search-field" for="style-search">
+              <svg class="icon"><use href="#icon-search"></use></svg>
+              <input id="style-search" type="search" placeholder="搜索行业、标签、风格" />
+            </label>
+          </header>
+
+          <div class="style-layout">
+            <section class="style-main" aria-label="风格模板">
+              <div class="style-grid" id="style-grid"></div>
+            </section>
+
+            <aside class="style-inspector" aria-label="风格详情与新增">
+              <section class="side-block">
+                <div class="block-heading">
+                  <h3>当前选择</h3>
+                  <span>manifest</span>
+                </div>
+                <div id="style-detail" class="style-detail"></div>
+              </section>
+
+              <section class="side-block capture-block">
+                <div class="block-heading">
+                  <h3>沉淀新风格</h3>
+                  <span>style-capture/</span>
+                </div>
+                <label class="field-label" for="style-name-input">风格名称</label>
+                <input id="style-name-input" type="text" placeholder="医疗器械深色研发汇报" />
+                <label class="field-label" for="style-desc-input">适用场景</label>
+                <textarea id="style-desc-input" rows="4" placeholder="行业、页型、内容密度"></textarea>
+                <label class="field-label" for="style-tags-input">标签</label>
+                <input id="style-tags-input" type="text" placeholder="medical,dark,data-heavy" />
+                <button class="button button-primary full-width" id="save-style-button" type="button">保存到风格库</button>
+                <div class="capture-note" id="capture-note" aria-live="polite"></div>
+              </section>
+            </aside>
+          </div>
+        </section>
+
+        <section class="view" id="settings-view" aria-labelledby="settings-title">
+          <header class="page-header">
+            <div>
+              <p class="eyebrow">Connection</p>
+              <h2 id="settings-title">API KEY 配置</h2>
+              <p class="meta-line">配置后即可调用大纲、视觉和页面生成服务。</p>
+            </div>
+          </header>
+
+          <section class="settings-panel" aria-label="API KEY 设置">
+            <div class="settings-panel-heading">
+              <div>
+                <h3>OpenAI 兼容接口</h3>
+                <p>密钥仅提交给当前本地服务，不会显示完整内容。</p>
+              </div>
+              <span class="config-status" id="api-key-status">检查中</span>
+            </div>
+            <form class="api-key-form" id="api-key-form">
+              <label class="field-label" for="api-key-input">API KEY</label>
+              <div class="api-key-input-row">
+                <input id="api-key-input" name="apiKey" type="password" autocomplete="off" placeholder="sk-..." spellcheck="false" />
+                <button class="button button-primary" type="submit">保存配置</button>
+              </div>
+              <p class="settings-note" id="api-key-note" aria-live="polite">正在读取本地服务状态...</p>
+            </form>
+          </section>
+        </section>
+      </main>
+    </div>
+
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+    <div class="image-viewer" id="image-viewer" aria-hidden="true">
+      <button class="image-viewer-backdrop" id="image-viewer-backdrop" type="button" aria-label="关闭大图"></button>
+      <section class="image-viewer-panel" role="dialog" aria-modal="true" aria-labelledby="image-viewer-title">
+        <header class="image-viewer-header">
+          <div>
+            <p class="eyebrow">Slide Preview</p>
+            <h2 id="image-viewer-title">页面预览</h2>
+          </div>
+          <button class="icon-button" id="image-viewer-close" type="button" aria-label="关闭大图">
+            <svg class="icon"><use href="#icon-close"></use></svg>
+          </button>
+        </header>
+        <div class="image-viewer-layout">
+          <img id="image-viewer-image" class="image-viewer-image" alt="" />
+          <aside class="image-viewer-meta">
+            <section class="image-viewer-section">
+              <div class="section-title">
+                <h3>Prompt</h3>
+                <div class="prompt-heading-actions">
+                  <span id="image-viewer-prompt-path">prompt</span>
+                  <button class="prompt-copy-button" id="image-viewer-copy-prompt" type="button" aria-label="复制 Prompt">
+                    <svg class="icon"><use href="#icon-copy"></use></svg>
+                    <span>复制</span>
+                  </button>
+                </div>
+              </div>
+              <pre id="image-viewer-prompt" class="image-viewer-prompt">正在加载 prompt...</pre>
+            </section>
+            <section class="image-viewer-section">
+              <div class="section-title"><h3>引用图</h3><span id="image-viewer-reference-note">reference</span></div>
+              <div id="image-viewer-references" class="image-viewer-references"></div>
+            </section>
+          </aside>
+        </div>
+      </section>
+    </div>
+
+    <template id="project-card-template">
+      <button class="project-card" type="button">
+        <img class="project-card-image" alt="" loading="lazy" />
+        <span class="project-card-body">
+          <span class="project-card-topline"></span>
+          <span class="project-card-title"></span>
+          <span class="project-card-meta"></span>
+          <span class="project-card-action"></span>
+        </span>
+      </button>
+    </template>
+
+    <template id="style-card-template">
+      <article class="style-card">
+        <button class="style-preview-button" type="button">
+          <img alt="" class="style-image" loading="lazy" />
+        </button>
+        <div class="style-body">
+          <h3></h3>
+          <p></p>
+          <div class="tag-row"></div>
+        </div>
+      </article>
+    </template>
+
+    <script src="./vendor/fabric/fabric.min.js" defer></script>
+    <script src="./app.js" defer></script>
+  </body>
+</html>

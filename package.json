@@ -1,0 +1,7 @@
+{
+  "scripts": {
+    "dev": "node product-app/server.mjs",
+    "dev:5174": "PORT=5174 node product-app/server.mjs",
+    "check": "node --check product-app/app.js && node --check product-app/server.mjs"
+  }
+}

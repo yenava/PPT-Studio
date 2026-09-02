@@ -1,0 +1,24 @@
+# Local secrets and environment files
+.env
+.env.*
+!.env.example
+
+# Dependencies and local caches
+node_modules/
+__pycache__/
+.playwright-cli/
+.DS_Store
+
+# Generated decks, images, run state, and inspection artifacts
+output/
+outputs/
+runs/
+run-4pages/__pycache__/
+run-4pages/batch-qa/
+run-4pages/final/
+run-4pages/pages/
+run-4pages/input/
+work/
+
+# Local/private source material
+*.docx

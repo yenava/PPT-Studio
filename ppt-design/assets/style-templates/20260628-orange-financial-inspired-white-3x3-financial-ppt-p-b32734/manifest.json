@@ -1,0 +1,63 @@
+{
+  "id": "20260628-orange-financial-inspired-white-3x3-financial-ppt-p-b32734",
+  "name": "Orange Financial Inspired White 3x3 Financial PPT Preview",
+  "description": "白底橙红橙红金融金融保险PPT九宫格预览：3x3共9张16:9缩略图，首张封面，后续为高密度咨询报告页。",
+  "tags": [
+    "financial-insurance",
+    "white-background",
+    "orange-red",
+    "orange-financial-inspired",
+    "3x3-preview",
+    "nine-thumbnails",
+    "cover-slide",
+    "consulting-style",
+    "anonymized"
+  ],
+  "created_at": "2026-06-28T14:21:39+08:00",
+  "updated_at": "2026-06-28T14:21:39+08:00",
+  "page_count": 9,
+  "source_profile": {
+    "topic": "白底橙红金融保险企业PPT九宫格风格预览",
+    "audience": "企业内部汇报、经营分析、策略评审",
+    "industry": "financial-insurance",
+    "purpose": "style extraction and reusable 3x3 preview template generation",
+    "tone": "corporate, analytical, dense, pragmatic, consulting-style",
+    "page_count": 9,
+    "keywords": [
+      "white background",
+      "orange-red corporate deck",
+      "Orange Financial inspired",
+      "insurance consulting style",
+      "dense information dashboard",
+      "3x3 preview board",
+      "nine 16:9 thumbnails",
+      "cover slide",
+      "thin orange dividers",
+      "module cards",
+      "process arrows",
+      "chart-heavy"
+    ],
+    "visual_constraints": [
+      "no real company logo",
+      "no real business content",
+      "no real data",
+      "white full-board background",
+      "first thumbnail is a cover slide",
+      "all thumbnails are 16:9",
+      "use generic but concrete anonymized topics"
+    ],
+    "reference_images": [
+      "/var/folders/69/d_wdfswx1js6cgt9m_16523c0000gn/T/codex-clipboard-b9753b92-b2f3-403d-adba-75d7d325b3df.png"
+    ]
+  },
+  "visual_system": {
+    "layout": "Board layout:",
+    "background": "Use the provided reference image as the primary style reference. Generate one polished PPT style preview board with exactly 9 slide thumbnails arranged in a 3-column x 3-row grid. Treat “9x9” as a nine-grid preview: 9 slides total. Each thumbnail must be a clean 16:9 landscape slide, with equal dime",
+    "charts": "Orange process arrows, step diagrams, timelines, charts, donut charts, bar charts, icon rows.",
+    "icons": "Orange process arrows, step diagrams, timelines, charts, donut charts, bar charts, icon rows.",
+    "modules": "Fine 1px orange/gray module borders."
+  },
+  "prompt_path": "prompt.md",
+  "collage_image": "collage.png",
+  "assets": []
+}
